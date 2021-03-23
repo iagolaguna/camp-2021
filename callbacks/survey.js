@@ -1,4 +1,3 @@
-const { Resolver } = require("dns")
 const readline = require("readline")
 const rl = readline.createInterface({
   input: process.stdin,
@@ -30,8 +29,3 @@ rl.on("close", function () {
   console.log("\nBYE BYE !!!")
   process.exit(0)
 })
-
-// rl.question("Where do you live ? ", function (country) {
-//   console.log(`${name}, is a citizen of ${country}`)
-//   rl.close()
-// })
